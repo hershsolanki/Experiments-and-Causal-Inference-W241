@@ -1,0 +1,279 @@
+---
+title: "Problem Set 5"
+author: "Field Experiments"
+output:
+  rmarkdown::github_document
+---
+
+# 1. Online advertising natural experiment. 
+These are simulated data (closely, although not entirely) based on a real example, adopted from Randall Lewis’ dissertation at MIT.
+
+## Problem Setup 
+
+Imagine Yahoo! sells homepage ads to advertisers that are quasi-randomly assigned by whether the user loads the Yahoo! homepage (www.yahoo.com) on an even or odd second of the day. More specifically, the setup is as follows. On any given week, Monday through Sunday, two ad campaigns are running on Yahoo!’s homepage. If a user goes to www.yahoo.com during an even second that week (e.g., Monday at 12:30:58pm), the ads for the advertiser are shown. But if the user goes to www.yahoo.com during an odd second during that week (e.g., Monday at 12:30:59), the ads for other products are shown. (If a user logs onto Yahoo! once on an even second and once on an odd second, they are shown the first of the campaigns the first time and the second of the campaigns the second time. Assignment is not persistent within users.)
+
+This natural experiment allows us to use the users who log onto Yahoo! during odd seconds/the ad impressions from odd seconds as a randomized control group for users who log onto Yahoo! during even seconds/the ad impressions from even seconds. (We will assume throughout the problem there is no effect of viewing advertiser 2’s ads, from odd seconds, on purchases for advertiser 1, the product advertised on even seconds.)
+
+Imagine you are an advertiser who has purchased advertising from Yahoo! that is subject to this randomization on two occasions. Here is a link to (fake) data on 500,000 randomly selected users who visited Yahoo!’s homepage during each of your two advertising campaigns, one you conducted for product A in March and one you conducted for product B in August (~250,000 users for each of the two experiments). Each row in the dataset corresponds to a user exposed to one of these campaigns.
+
+```{r, message=FALSE}
+library(data.table)
+library(stargazer)
+library(dplyr)
+library(multiwayvcov)
+library(sandwich)
+library(lmtest)
+
+d.1 <- fread('./data/ps5_no1.csv')
+head(d.1)
+```
+
+
+The variables in the dataset are described below:
+
+  + **product_b**: an indicator for whether the data is from your campaign for product A (in which case it is set to 0), sold beginning on March 1, or for product B, sold beginning on August 1 (in which case it is set to 1). That is, there are two experiments in this dataset, and this variable tells you which experiment the data belong to.
+  + **treatment_ad_exposures_week1**: number of ad exposures for the product being advertised during the campaign. (One can also think of this variable as “number of times each user visited Yahoo! homepage on an even second during the week of the campaign.”)
+  + **total_ad_exposures_week1**: number of ad exposures on the Yahoo! homepage each user had during the ad campaign, which is the sum of exposures to the “treatment ads” for the product being advertised (delivered on even seconds) and exposures to the “control ads” for unrelated products (delivered on odd seconds). (One can also think of this variable as “total number of times each user visited the Yahoo! homepage during the week of the campaign.”)
+  + **week0**: For the treatment product, the revenues from each user in the week prior to the launch of the advertising campaign.
+  + **week1**: For the treatment product, the revenues from each user in the week during the advertising campaign. The ad campaign ends on the last day of week 1.
+  + **week2-week10**: Revenue from each user for the treatment product sold in the weeks subsequent to the campaign. The ad campaign was not active during this time.
+
+Simplifying assumptions you should make when answering this problem:
+
+  + The effect of treatment ad exposures on purchases is linear. That is, the first exposure has the same effect as the second exposure.
+  + There is no effect of being exposed to the odd-second ads on purchases for the product being advertised on the even second.
+  + Every Yahoo! user visits the Yahoo! home page at most six times a week.
+  + You can assume that treatment ad exposures do not cause changes in future ad exposures.  That is, assume that getting a treatment ad at 9:00am doesn’t cause you to be more (or less) likely to visit the Yahoo home pages on an even second that afternoon, or on subsequent days.
+
+## Questions to Answer 
+
+a. Run a crosstab (`table`) of `total_ad_exposures_week1` and `treatment_ad_exposures_week1` to sanity check that the distribution of impressions looks as it should. Does it seem reasonable? Why does it look like this? (No computation required here, just a brief verbal response.)
+
+```{r, message=FALSE}
+table(d.1$total_ad_exposures_week1, d.1$treatment_ad_exposures_week1)
+
+hist(d.1$total_ad_exposures_week1)
+hist(d.1$treatment_ad_exposures_week1)
+
+d.1$sanity_check <- d.1$total_ad_exposures_week1 < d.1$treatment_ad_exposures_week1
+any(d.1$sanity_check == TRUE)
+```
+**When looking at the table, we know that the total_ad_exposures_week1 must be greater than the treatment_ad_exposures_week1. Thus, half the cross tab is empty, which makes sure that our data is correct. If it was not empty, there could be cases where treatment_ad_exposures_week1 > total_ad_exposures_week1, which would mean this data does NOT pass the sanity check. Moreover, treatment_ad_exposures_week1 is right skewed while total_ad_exposures_week1 is more normally distributed. Once again, this is that way the two histograms should look. Finally, I run "any(d.1$sanity_check == TRUE)" to see if any of the rows have the case that reatment_ad_exposures_week1 > total_ad_exposures_week1. However, this is FALSE, finally proving the hypothesis.**
+
+b. Your colleague proposes the code printed below to analyze this experiment: 
+`lm(week1 ~ treatment_ad_exposures_week1, data)` You are suspicious. Run a placebo test with the prior week’s purchases as the outcome and report the results. Did the placebo test “succeed” or “fail”? Why do you say so?
+
+```{r, message=FALSE}
+lin.reg.1b.2 <- lm(week0 ~ treatment_ad_exposures_week1, data = d.1)
+summary(lin.reg.1b.2)
+
+#Robust SE
+(sqrt(diag(vcovHC(lin.reg.1b.2))))
+
+```
+**The placebo tests fails, as there is a stat significant effect of having the treatment predict the previous week's revenues. There is an impact on the outcome when in reality there should not be one.**
+
+c. The placebo test suggests that there is something wrong with our experiment or our data analysis. We suggest looking for a problem with the data analysis. Do you see something that might be spoiling the randomness of the treatment variable? How can you improve your analysis to get rid of this problem? Why does the placebo test turn out the way it does? What one thing needs to be done to analyze the data correctly? Please provide a brief explanation of why, not just what needs to be done. (*Note: This question, and verifying that you answered it correctly in part d below, may require some thinking. If we find many people can’t figure it out, we will post another hint in a few days.*)
+
+**One way we can improve is to add total exposures as a covariate, so we can delineate the specific ad views vs the total ad views. It could be the case that certain people buy a lot of things, and then are on the site a lot. However, this does not mean that A/B influenced them. By adding it as a covariate, we can see the true effect of the treatment_ad_exposures_week1.**
+
+
+d. Implement the procedure you propose from part (c), run the placebo test for the Week 0 data again, and report the results. (This placebo test should pass; if it does not, re-evaluate your strategy before wasting time proceeding.)
+```{r, message=FALSE}
+lin.reg.1d <- lm(week0 ~ treatment_ad_exposures_week1 + total_ad_exposures_week1, data = d.1)
+summary(lin.reg.1d)
+
+#Robust SE
+(sqrt(diag(vcovHC(lin.reg.1d))))
+
+```
+**Placebo does not have an effect on prior week's revenue, as we see a p value of 0.628. Thus, I know I have done my calculation correctly.**
+
+e. Now estimate the causal effect of each ad exposure on purchases during the week of the campaign itself using the same technique that passed the placebo test in part (d).
+
+```{r, message=FALSE}
+lin.reg.1e <- lm(week1 ~ treatment_ad_exposures_week1 + total_ad_exposures_week1, data = d.1)
+summary(lin.reg.1e)
+
+#Robust SE
+(sqrt(diag(vcovHC(lin.reg.1e))))
+```
+**We see an increase of 0.056340(0.005137690) in revenue for each add the user is exposed to, which we know is statistically significant. Thus, the first week of sales reflect the impact of the ads.**
+
+
+f. The colleague who proposed the specification in part (b) challenges your results -- they make the campaign look less successful. Write a paragraph that a layperson would understand about why your estimation strategy is superior and his/hers is biased.
+
+**To the layperson, you would say: You need to include a baseline because you need to see how many sales existed before the ads took effect. Moreover, a website could have a lot of visits, which lead to purchases. What we need to see is if visiting a web page on an even/odd second had an effect on purchases GIVEN the fact that we know how many total times a person visited a website. We need to make sure we can attribute the sale to ad, and not just a person who likes to visit a lot of times (might buy for anothe reason). Our colleague's strategy may be biased for exactly this reason--a person who visits a lot and was not affect by the ad would be shown to be effected by the ad.**
+
+
+g. Estimate the causal effect of each treatment ad exposure on purchases during and after the campaign, up until week 10 (so, total purchases during weeks 1 through 10).
+
+```{r, message=FALSE}
+d.1$total <- d.1$week1 + d.1$week2 + d.1$week3 + d.1$week4 + d.1$week5 + d.1$week6 + d.1$week7 + d.1$week8 + d.1$week9 + d.1$week10
+
+lin.reg.1g <- lm(total ~ treatment_ad_exposures_week1 + total_ad_exposures_week1, data = d.1)
+summary(lin.reg.1g)
+
+#Robust SE
+(sqrt(diag(vcovHC(lin.reg.1g))))
+
+```
+**There is an impact of 0.01274(0.01902183) for the 10 weeks combined. This value is not stat significant, meaning the lift over 9 weeks was not significantly affected by the ads.**
+
+h. Estimate the causal effect of each treatment ad exposure on purchases only after the campaign.  That is, look at total purchases only during week 2 through week 10, inclusive.
+
+```{r, message=FALSE}
+d.1$total_2_10 <- d.1$week2 + d.1$week3 + d.1$week4 + d.1$week5 + d.1$week6 + d.1$week7 + d.1$week8 + d.1$week9 + d.1$week10
+
+lin.reg.1h <- lm(total_2_10 ~ treatment_ad_exposures_week1 + total_ad_exposures_week1, data = d.1)
+summary(lin.reg.1h)
+
+#Robust SE
+(sqrt(diag(vcovHC(lin.reg.1h))))
+
+```
+**There was a -0.04360(0.01818730) impact of each ad that was exposed, which is stat significant. What we see is that sales went down when there was an ad shown.**
+
+i. Tell a story that could plausibly explain the result from part (h).
+
+**People buy all their stuff when there is an ad, then you have a negative effect afterwards because they no longer want to buy anything. We can prove this because the result on week 1 sales is a positive lift, but week 2-10 sales is a negative lift.**
+
+j. Test the hypothesis that the ads for product B are more effective, in terms of producing additional revenue in week 1 only, than are the ads for product A.
+(*Hint: The easiest way to do this is to throw all of the observations into one big regression and specify that regression in such a way that it tests this hypothesis.*)
+(*Hint 2: There are a couple defensible ways to answer this question that lead to different answers. Don’t stress if you think you have an approach you can defend.*)
+
+```{r, message=FALSE}
+lin.reg.1j <- lm(week1 ~ treatment_ad_exposures_week1 * product_b + total_ad_exposures_week1 * product_b, data = d.1)
+summary(lin.reg.1j)
+
+(sqrt(diag(vcovHC(lin.reg.1j))))
+```
+**We add an interaction term, which is product_b. Ultimately, we see that ads for product B are less effective than ads for product A. We look at treatment_ad_exposures_week1:product_b to get this result, with an estimate of -0.023922(0.010272853) and p value that is stat significant.**
+
+k. You notice that the ads for product A included celebrity endorsements. How confident would you be in concluding that celebrity endorsements increase the effectiveness of advertising at stimulating immediate purchases?
+
+**How can you conclude this? You have no data to obtain causation. I would not be confident at all, and would have to run an experiment to come a conclusion like this. Just because you notice something does not mean there is a causal effect. Remember to be safe, you always want to run an experiment when you can to establish causality!**
+
+
+# 2. Vietnam Draft Lottery 
+A [famous paper](http://sites.duke.edu/niou/files/2011/06/Angrist_lifetime-earningsmall.pdf) by Angrist exploits the randomized lottery for the Vietnam draft to estimate the effect of education on wages. (*Don’t worry about reading this article, it is just provided to satisfy your curiosity; you can answer the question below without referring to it. In fact, it may be easier for you not to, since he has some complications to deal with that the simple data we’re giving you do not.*)
+
+## Problem Setup
+
+Angrist’s idea is this: During the Vietnam era, draft numbers were determined randomly by birth date -- the army would literally randomly draw birthdays out of a hat, and those whose birthdays came up sooner were higher up on the list to be drafted first. For example, all young American men born on May 2 of a given year might have draft number 1 and be the first to be called up for service, followed by November 13 who would get draft number 2 and be second, etc. The higher-ranked (closer to 1) your draft number, the likelier it was you would be drafted.
+
+We have generated a fake version of this data for your use in this project. You can find real information (here)[https://www.sss.gov/About/History-And-Records/lotter1]. While we're defining having a high draft number as falling at 80, in reality in 1970 any number lower than 195 would have been a "high" draft number, in 1971 anything lower than 125 would have been "high". 
+
+High draft rank induced many Americans to go to college, because being a college student was an excuse to avoid the draft -- so those with higher-ranked draft numbers attempted to enroll in college for fear of being drafted, whereas those with lower-ranked draft numbers felt less pressure to enroll in college just to avoid the draft (some still attended college regardless, of course). Draft numbers therefore cause a natural experiment in education, as we now have two randomly assigned groups, with one group having higher mean levels of education, those with higher draft numbers, than another, those with lower draft numbers. (In the language of econometricians, we say the draft number is “an instrument for education,” or that draft number is an “instrumental variable.”)
+
+Some simplifying assumptions:
+
++ Suppose that these data are a true random sample of IRS records and that these records measure every living American’s income without error.
++ Assume that the true effect of education on income is linear in the number of years of education obtained.
++ Assume all the data points are from Americans born in a single year and we do not need to worry about cohort effects of any kind.
+
+```{r, echo=FALSE}
+# install.packages("multiwayvcov")
+d.2 <- fread("./data/ps5_no2.csv")
+head(d.2)
+```
+
+## Questions to Answer
+
+a. Suppose that you had not run an experiment. Estimate the "effect" of each year of education on income as an observational researcher might, by just running a regression of years of education on income (in R-ish, `income ~ years_education`). What does this naive regression suggest?
+
+```{r, echo=FALSE}
+lin.reg.2a <- lm(income ~ years_education, data = d.2)
+summary(lin.reg.2a)
+
+#Robust SE
+(sqrt(diag(vcovHC(lin.reg.2a))))
+
+```
+**Every year of added education adds  $5750.48 (84.41) of an increase in income. We know this is stat significant, we our p value being 2e-16. Here I used Robust SE.**
+
+b. Continue to suppose that we did not run the experiment, but that we saw the result that you noted in part (a). Tell a concrete story about why you don't believe that observational result tells you anything causal.
+
+**It could be the case that education year is not the only thing that leads to wealth. If one were to have family connections that could set them up for success, then education is irrelevant. If they inherited a business, once again, education doesn't matter as much. Another reason could be that if you went to school (which requires you to be succesful/motivated), then you could also be succesful in your career.**
+
+c. Now, let’s get to using the natural experiment. We will define “having a high-ranked draft number” as having a draft number of 80 or below (1-80; numbers 81-365, for the remaining 285 days of the year, can be considered “low-ranked”). Create a variable in your dataset indicating whether each person has a high-ranked draft number or not. Using regression, estimate the effect of having a high-ranked draft number, the dummy variable you’ve just created, on years of education obtained. Report the estimate and a correctly computed standard error. (*Hint: Pay special attention to calculating the correct standard errors here. They should match how the draft is conducted.)
+
+```{r, echo=FALSE}
+
+# 1 if high, 0 if low
+d.2$rank <- 0
+d.2$rank[d.2$draft_number <81] <- 1
+
+lin.reg.2c <- lm(years_education ~ rank, data = d.2)
+summary(lin.reg.2c)
+
+# Get Clustered SE
+sqrt(diag(cluster.vcov(lin.reg.2c, ~ draft_number)))
+
+```
+**The impact of having a high draft number is 2.12576 more years of education. Given we have clusters (high vs low rank), we use a clustered SE, which comes out to be 0.03818784. This value is stat significant.**
+
+
+d. Using linear regression, estimate the effect of having a high-ranked draft number on income. Report the estimate and the correct standard error.
+
+```{r, echo=FALSE}
+
+lin.reg.2d <- lm(income ~ rank, data = d.2)
+summary(lin.reg.2d)
+
+# Get Clustered SE
+sqrt(diag(cluster.vcov(lin.reg.2d, ~ draft_number)))
+
+```
+**The effect of having a a high draft number on income is $6,637.6 in increased income. Once again we use clustered SE, to get 511.8992. Note this value is stat significant.**
+
+
+e. Divide the estimate from part (d) by the estimate in part (c) to estimate the effect of education on income. This is an instrumental-variables estimate, in which we are looking at the “clean” variation in both education and income that is due to the draft status, and computing the slope of the income-education line as “clean change in Y” divided by “clean change in X”. What do the results suggest?
+
+```{r, echo=FALSE}
+c.value <- lin.reg.2c$coefficients
+d.value <- lin.reg.2d$coefficients
+
+d.value/c.value
+
+```
+**Here, we see our clean variation. In this case, it is the case that a high rank draft number leads to an increase income of $3,122.44 per year.**
+
+
+f. Natural experiments rely crucially on the “exclusion restriction” assumption that the instrument (here, having a high draft rank) cannot affect the outcome (here, income) in any other way except through its effect on the “endogenous variable” (here, education). Give one reason this assumption may be violated -- that is, why having a high draft rank could affect individuals’ income other than because it nudges them to attend school for longer.
+
+**Given one has a higher rank, they could go to war and get injured, thus being unable to work. As a result, it is the lack of physical ability, not the lack of schooling, that affect their income negatively. Some could have PTSD as well, which is another reason the assumption can be violated.**
+
+g. Conduct a test for the presence of differential attrition by treatment condition. That is, conduct a formal test of the hypothesis that the “high-ranked draft number” treatment has no effect on whether we observe a person’s income. **(Note, that an earning of $0 *actually* means they didn't earn any money.)**
+
+```{r, echo=FALSE}
+
+# Get counts for every draft number, keep rank
+grouped.d2 <- group_by(d.2, draft_number, rank)
+grouped.d2.count <- summarise(grouped.d2, count = n())
+
+# See if rank has an effect on the counts of every draft number
+lin.reg.2g <- lm(count ~ rank, data = grouped.d2.count)
+summary(lin.reg.2g)
+
+# Get Clustered SE
+sqrt(diag(cluster.vcov(lin.reg.2g, ~ draft_number)))
+
+
+```
+**There are -6.2860 observations for high rank numbers in comparison to lower rank numbers, which is stat significant. The clusetered SE is 0.9448176. Thus, we reject the hypothesis that high rank has no effect on if we can observe income.** 
+
+h. Tell a concrete story about what could be leading to the result in part (g).
+
+**Those who died cannot have income numbers, and those who had highest lottery numbers were more likely to be drafted. Thus, we see lower amounts of observations for higher draft numbers. Thus, they are unable to get an income, and so the study favors though who did not die.**
+
+i. Tell a concrete story about how this differential attrition might bias our estimates.
+
+**If someone did not die, it could be the case that they were resilisent, which could translate to working as well. As a result, these people who are resilient will end up making more money, and will not be an accurate representation of everyone who had a higher draft number. Thus, our estimate would be higher than the actual reality, leading to an overestimation of income of those with a higher draft lottery.**
+
+# 3. Optional: Think about Treatment Effects 
+
+Throughout this course we have focused on the average treatment effect. Think back to *why* we are concerned about the average treatment effect. What is the relationship between an ATE, and some individuals' potential outcomes? Make the strongest case you can for why this is a *good* measure. 
+
+**We care about the average treatment effect because it tells us on average, the effect a treatment has on a group of individuals. A potential outcome deals with looking at counterfactuals--if you are in the control group, what would have your outcome been had you been in the treatment group. Thus, the ATE is the average difference in potential outcomes for the group of individuals. This is a good measure because we are aggregating potential outcomes, and finding the average difference between the control and treatment group. This tells us how powerful the treatment is.**
+
