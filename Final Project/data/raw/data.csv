@@ -1,0 +1,182 @@
+Block,School,School Location,Position,Location,Rating,Salary Low,Salary High,Date Applied,Date Responded,Interested
+Teacher,Brown,"Providence, RI",Big Tree Little Preschool,"Vista, California",N/A,27000,31000,10/25/2019,,
+Teacher,Brown,"Providence, RI",Brightmont Academy (AZ),"Deer Valley, AZ",3.5,20,23,10/25/2019,,
+Teacher,Brown,"Providence, RI",Democracy Prep Public Schools,"Las Vegas, NV",2.8,42000,56000,10/25/2019,,
+Teacher,Columbia,"New York, NY",San Jose Christian,"Campbell, California",4,84000,91000,10/25/2019,,
+Teacher,Columbia,"New York, NY",Summit Public Schools,"Daly City, California",3.2,57572,57572,10/25/2019,,
+Teacher,Columbia,"New York, NY",Acheivment Prep,"Washington, DC",4,34000,48000,10/25/2019,11/6/2019,Yes
+Teacher,Cornell,"Ithaca, NY
+	",Primrose School of Edina,"Edina, MN",N/A,28000,30000,10/25/2019,10/29/2019,Yes
+Teacher,Cornell,"Ithaca, NY",360 Degree Customer,"Sunnyvale, California",3.7,69000,93000,10/25/2019,,
+Teacher,Cornell,"Ithaca, NY",Montessori Academy,"Chicago, IL",4.1,11,13,10/25/2019,,
+Teacher,CUNY,"New York, NY",Diocese of Camden,"Camden, NJ",2.5,66000,70000,10/25/2019,,
+Teacher,CUNY,"New York, NY",Camden Charter Network,"Camden, NJ",2.8,42000,53000,10/25/2019,,
+Teacher,CUNY,"New York, NY",Capital Education,"Pikesville, MD",2.5,14,16,10/25/2019,,
+Teacher,Dartmouth,"Hanover, NH	",Panache Enfants,"San Ramon, MD",N/A,15,17,10/25/2019,,
+Teacher,Dartmouth,"Hanover, NH",Academic Acheivers,"Santa Monica, California",5,55000,59000,10/25/2019,11/16/2019,Yes
+Teacher,Dartmouth,"Hanover, NH",Sylvan Learning Centers,"Piedmont, California",3.5,11,18,10/25/2019,,
+Teacher,Harvard,"Cambridge, MA",Westminster Early Childhood Education,"Upper Saint Clair, PA",N/A,N/A,N/A,10/25/2019,,
+Teacher,Harvard,"Cambridge, MA",Joy of Learning,"Miami, Florida",3,28000,30000,10/25/2019,,
+Teacher,Harvard,"Cambridge, MA",MPO Solutions,"Dallas, TX",N/A,N/A,N/A,10/25/2019,,
+Teacher,MIT,"Cambridge, MA",Keystone School,"San Antonio, TX",N/A,11,13,10/25/2019,,
+Teacher,MIT,"Cambridge, MA",The Aemilian Preschool,"Wauwatosa, WI",4,14,15,10/25/2019,10/28/2019,Yes
+Teacher,MIT,"Cambridge, MA",The Goddard School,"West Chester, PA",3.2,9,14,10/25/2019,,
+Teacher,Penn State,"State College, PA",Little Scholars Early Center,"Mentor, OH",N/A,N/A,N/A,10/25/2019,,
+Teacher,Penn State,"State College, PA","Olivia, Inc","Shorewood, WI",N/A,13,17,10/25/2019,10/28/2019,Yes
+Teacher,Penn State,"State College, PA",Kid's Castle,"Kenosha, WI",N/A,9,10,10/25/2019,,
+Teacher,Princeton,"Princeton, NJ",Child Care Associates,"Hurst, TX",3.5,14,16,10/25/2019,,
+Teacher,Princeton,"Princeton, NJ",Feynman School,"Potomac, MD",N/A,49000,54000,10/25/2019,,
+Teacher,Princeton,"Princeton, NJ",Kokua,"Philadelphia, PA",3.8,48000,52000,10/25/2019,10/28/2019,Yes
+Teacher,Rutgers,"New Brunswick, New Jersey",Greater Quincy Child Care Center,"Quincy, MA",5,33000,35000,10/25/2019,,
+Teacher,Rutgers,"New Brunswick, New Jersey",Little Kiddies,"Chicago, IL",N/A,N/A,N/A,10/25/2019,,
+Teacher,Rutgers,"New Brunswick, New Jersey",Willow Creek Learning Center,"Menomonee Falls, WI",N/A,N/A,N/A,10/25/2019,,
+Teacher,Stanford,"Stanford, California",Tiny Treasurey,"New Lenox, IL",5,N/A,N/A,10/25/2019,,
+Teacher,Stanford,"Stanford, California",Great Lakers Academy Charter School,"Chicago, IL",N/A,48000,75000,10/25/2019,,
+Teacher,Stanford,"Stanford, California",Junior Manners Company,"San Francisco, California",N/A,N/A,N/A,10/25/2019,,
+Teacher,SUNY,"Albany, NY",Jennifer ROsen Meade Preschool,"Bellevue, WA",N/A,18,24,10/25/2019,,
+Teacher,SUNY,"Albany, NY",MCC Academy,"Skokie, IL",N/A,N/A,N/A,10/25/2019,,
+Teacher,SUNY,"Albany, NY",EJ Kids Klub,"Williston, VT",N/A,14,25,10/25/2019,10/28/2019,Yes
+Teacher,UCLA,"Los Angeles, California",Bold Charter School,"Bronx, NY",N/A,N/A,N/A,10/25/2019,10/28/2019,Yes
+Teacher,UCLA,"Los Angeles, California",Immaculate Conception School,"Newburyport, MA",N/A,N/A,N/A,10/25/2019,,
+Teacher,UCLA,"Los Angeles, California",Legacy Academy Charter School,"Rockford, IL",N/A,N/A,N/A,10/25/2019,,
+Teacher,UConn,"Mansfield, Connecticut",Primrose Schools,"Rosewell, GA",2.9,19000,22000,10/25/2019,,
+Teacher,UConn,"Mansfield, Connecticut",TLC Schools,"Plano, TX",N/A,14,15,10/25/2019,,
+Teacher,UConn,"Mansfield, Connecticut",Kiddie Academy of Gurnee,"Gurnee, IL",N/A,14,16,10/25/2019,,
+Teacher,UMassAmherst,"Amherst, Massachusetts",Angie's Angels,"Fremont, OH",N/A,N/A,N/A,10/25/2019,,
+Teacher,UMassAmherst,"Amherst, Massachusetts",Learn It Systems,"Chicago, IL",3.5,25,27,10/25/2019,10/28/2019,Yes
+Teacher,UMassAmherst,"Amherst, Massachusetts",The Learning Experience,"East Brunswick, NJ",3.2,32000,48000,10/25/2019,,
+Teacher,UMassBoston,"Boston, Massachusetts",Montgomery Child Care Association,"Potomac Heights, MD",2.7,17,17,10/25/2019,,
+Teacher,UMassBoston,"Boston, Massachusetts",Bamboo Shoots Education,"Westfield, NJ",N/A,N/A,N/A,10/25/2019,,
+Teacher,UMassBoston,"Boston, Massachusetts",Young at Heart Center,"Libertyville, IL",N/A,N/A,N/A,10/25/2019,,
+Teacher,UNH,"Durham, NH",Education Playcare,"Berlin, CT",3.3,11,16,10/25/2019,10/29/2019,Yes
+Teacher,UNH,"Durham, NH",Adventureland Childcare,"Indianapolis, IN",N/A,11,13,10/25/2019,,
+Teacher,UNH,"Durham, NH",Kids R Kids,"Conroe, TX",2.9,10,14,10/25/2019,,
+Teacher,UPenn,"Philadelphia, PA",Northwest Yeshiva High School,"Mercer Island, WA",N/A,45000,51000,10/25/2019,,
+Teacher,UPenn,"Philadelphia, PA","Margaret Fuller Neighborhood House, Inc","Cambridge, MA",N/A,12,14,10/25/2019,,
+Teacher,UPenn,"Philadelphia, PA",Transfiguration School,"New York, NY",N/A,N/A,N/A,10/25/2019,,
+Teacher,URI,"South Kingstown, Rhode Island",Best in Class Education Center,"Mason, OH",3.9,14,17,10/25/2019,,
+Teacher,URI,"South Kingstown, Rhode Island",Elevate K-12,"Chicago, Illinois",4.5,12,20,10/25/2019,,
+Teacher,URI,"South Kingstown, Rhode Island",Ashwood Glen,"Burlington, California",N/A,N/A,N/A,10/25/2019,,
+Teacher,Yale,"New Haven, CT",PediaStaff,"Maywood, IL",4.9,61000,66000,10/25/2019,10/26/2019,Yes
+Teacher,Yale,"New Haven, CT",Heartlight Ministries,"Hallsville, TX",3.8,33,36,10/25/2019,,
+Teacher,Yale,"New Haven, CT",Thomas MacLaren SChool,"Colorado Springs, California",N/A,29000,42000,10/25/2019,,
+Finance,Brown,"Providence, RI",Cascade Financial Services,"Chandler, AZ",3.5,49000,74000,10/25/2019,,
+Finance,Brown,"Providence, RI",Nfluence Partners,"San Francisco, California",5,NA,NA,10/25/2019,,
+Finance,Brown,"Providence, RI",Performance Search Group,"Houston, TX",5,NA,NA,10/25/2019,,
+Finance,Columbia,"New York, NY",Procore Technologies,"Carpinteria, California",4.2,69000,104000,10/25/2019,10/31/2019,No
+Finance,Columbia,"New York, NY",Teleport Group,"Lehi, UT",NA,NA,NA,10/25/2019,,
+Finance,Columbia,"New York, NY",Loyola University Health System,"Woburn, MA",2.9,56000,82000,10/25/2019,,
+Finance,Cornell,"Ithica, NY",BCG Securities,"Cherry Hill, NJ",4.3,49000,53000,10/25/2019,11/13/2019,Yes
+Finance,Cornell,"Ithica, NY","eSolutions, Inc","Overland Park, KS",3.4,36000,53000,10/25/2019,11/6/2019,No
+Finance,Cornell,"Ithica, NY",Adroit Resources,"San Francisco, California",4.6,NA,NA,10/25/2019,,
+Finance,CUNY,"New York, NY",Bigge Crane and Rigging,"San Leandro, California",4.2,68000,100000,10/25/2019,,
+Finance,CUNY,"New York, NY",Ajulia Executive Search,"Princeton, NJ",4,53000,79000,10/25/2019,,
+Finance,CUNY,"New York, NY",Study.com,"Mountain View, California",4.9,55000,82000,10/25/2019,,
+Finance,Dartmouth,"Hanover, NH",Strategic Delivery Solutions,"Clark, NJ",2.2,NA,NA,10/25/2019,10/28/2019,No
+Finance,Dartmouth,"Hanover, NH",Obsidian Entertainment,"Irvine, California",3.7,45000,68000,10/25/2019,,
+Finance,Dartmouth,"Hanover, NH",Giti Tire (USA) Ltd,"Fort Mill, SC",2.1,50000,75000,10/25/2019,,
+Finance,Harvard,"Cambridge, MA",Somatus,"Mc Lean, VA",5,NA,NA,10/25/2019,,
+Finance,Harvard,"Cambridge, MA",BloomReach,"Mountain View, California",4.1,84000,123000,10/25/2019,,
+Finance,Harvard,"Cambridge, MA","INDUS Technology, Inc.","Newport, RI",3.1,58000,86000,10/25/2019,,
+Finance,MIT,"Cambridge, MA",Denali Federal Credit Union,"Anchorage, AK",4.1,44000,66000,10/25/2019,,
+Finance,MIT,"Cambridge, MA",ATBS,"Lakewood, CO",3.6,31000,52000,10/25/2019,,
+Finance,MIT,"Cambridge, MA",Brandify,"Anaheim, California",3.8,48000,73000,10/25/2019,10/28/2019,No
+Finance,Penn State,"State College, PA",ZWILLING J.A. Henckels,"Pleasantville, NY",2.8,NA,NA,10/25/2019,10/28/2019,Yes
+Finance,Penn State,"State College, PA",Jatca,"Atlanta, GA",5,NA,NA,10/25/2019,,
+Finance,Penn State,"State College, PA","Joslin Capital Advisors, LLC","Bellevue, WA",NA,NA,NA,10/25/2019,10/31/2019,No
+Finance,Princeton,"Princeton, NJ",Johnson Consulting Group,"Scottsdale, AZ",5,NA,NA,10/25/2019,,
+Finance,Princeton,"Princeton, NJ",Omada Health,"San Francisco, California",4.2,NA,NA,10/25/2019,10/29/2019,No
+Finance,Princeton,"Princeton, NJ",South Coast Community Services,"Mission Viejo, California",2.9,45000,67000,10/25/2019,,
+Finance,Rutgers,"New Brunswick, New Jersey","OnesourcePCS, LLC","Washington, DC",NA,NA,NA,10/25/2019,,
+Finance,Rutgers,"New Brunswick, New Jersey",Gibson Dunn & Crutcher,"Los Angeles, California",4,45000,68000,10/25/2019,,
+Finance,Rutgers,"New Brunswick, New Jersey",Hunken Ewing Financial Group,"Chicago, IL",NA,43000,61000,10/25/2019,,
+Finance,Stanford,"Stanford, California",PeopleShare,"King of Prussia, PA",4.7,,,10/25/2019,10/28/2019,Yes
+Finance,Stanford,"Stanford, California",Aramco Services Company,"Houston, TX",2.4,89000,129000,10/25/2019,,
+Finance,Stanford,"Stanford, California",Gifted Healthcare,"Metrairie, LA",4.7,43000,64000,10/25/2019,10/30/2019,No
+Finance,SUNY,"Albany, New York",Dragonfly Group,"San Mateo, California",NA,NA,NA,10/25/2019,,
+Finance,SUNY,"Albany, New York",AP Integro,"Waltham, MA",4.3,NA,NA,10/25/2019,,
+Finance,SUNY,"Albany, New York",Richmond American Homes,"Irvine, California",3.8,43000,64000,10/25/2019,,
+Finance,UCLA,"Los Angeles, CA",X-Mode Social,"Reston, VA",4.9,NA,NA,10/25/2019,,
+Finance,UCLA,"Los Angeles, CA",Golub & Company,"Chicago, IL",4.3,NA,NA,10/25/2019,,
+Finance,UCLA,"Los Angeles, CA",Rakuten Marketing,"Salt Lake City, UT ",3.3,40000,60000,10/25/2019,,
+Finance,UCOnn,"Mansfield, Connecticut",Recruithook,"New York, NY",NA,NA,NA,10/25/2019,,
+Finance,UCOnn,"Mansfield, Connecticut",eClerx LLC,"Austin, TX",3.4,NA,NA,10/25/2019,,
+Finance,UCOnn,"Mansfield, Connecticut",CarGurus,"Cambridge, MA",4.3,50000,75000,10/25/2019,10/30/2019,No
+Finance,UMassAmherst,"Amherst, Massachusetts",Vestory,"Bellevue, WA",3,90000,150000,10/25/2019,,
+Finance,UMassAmherst,"Amherst, Massachusetts",Stefanini,"Allen Park, MI",3.3,42000,63000,10/25/2019,,
+Finance,UMassAmherst,"Amherst, Massachusetts",ARB Midstream,"Denver, CO",NA,62000,82000,10/25/2019,,
+Finance,UMassBoston,"Boston, Massachusetts",KVH Industries,"Middletown, RI",NA,41000,62000,10/25/2019,,
+Finance,UMassBoston,"Boston, Massachusetts",Professional Staffing Group,"Boston, MA",4.3,NA,60000,10/25/2019,,
+Finance,UMassBoston,"Boston, Massachusetts",CoreSite,"Denver, CO",3.9,46000,69000,10/25/2019,,
+Finance,UNH,"Durham, NH",endevis,"Madison, NJ",4.3,42000,65000,10/25/2019,,
+Finance,UNH,"Durham, NH",Planet,"San Francisco, California",3.2,68000,100000,10/25/2019,11/14/2019,No
+Finance,UNH,"Durham, NH",CAS,"Columbus, OH",2.9,44000,65000,10/25/2019,,
+Finance,UPenn,"Philadelphia, PA",Miller Cooper,"Niles, IL",3.5,56000,84000,10/25/2019,,
+Finance,UPenn,"Philadelphia, PA","Spinnaker Support, LLC","Englewood, CO",3.3,NA,NA,10/25/2019,,
+Finance,UPenn,"Philadelphia, PA",Keating Consulting Group,"San Mateo, California",3.8,NA,NA,10/25/2019,,
+Finance,URI,"South Kingstown, Rhode Island",DataVisor,"Mountain View, California",4.6,63000,94000,10/25/2019,,
+Finance,URI,"South Kingstown, Rhode Island",Fulcrum Staffing,"Charleston, SC",3.7,NA,NA,10/25/2019,,
+Finance,URI,"South Kingstown, Rhode Island",Gym Source,"Teterboro, NJ",NA,NA,NA,10/25/2019,,
+Finance,Yale,"New Haven, CT",Arbor Financial Systems,California,3,NA,NA,10/25/2019,,
+Finance,Yale,"New Haven, CT","The Concourse Group, LLC","Annapolis, MD",NA,NA,NA,10/25/2019,,
+Finance,Yale,"New Haven, CT",Revive Staffing Solutions Inc,"Wichita, KA",NA,NA,NA,10/25/2019,,
+ComputerScience,UMassBoston,"Boston, MA",Benefits Data Trust,"Philadelphia, PA",3,50000,69000,10/25/2019,,
+ComputerScience,Penn State,"State College, PA",Flexware Innovation,"Fishers, IN",4.4,46000,81000,10/25/2019,10/31/2019,Yes
+ComputerScience,SUNY,"Albany, NY",NextCapital,"Burlington, VT",4.3,61000,106000,10/31/2019,,
+ComputerScience,Penn State,"State College, PA",Veneble LLP,"Baltimore, MD",3.2,56000,87000,10/25/2019,11/20/2019,Yes
+ComputerScience,Princeton,"Princeton, NJ",Riverside Research Institute,"Beavercreek, OH",3.8,NA,NA,10/25/2019,,
+ComputerScience,Brown,"Providence, RI",ASML,"Wilton, CT",3.6,60000,84000,10/25/2019,11/21/2019,Yes
+ComputerScience,UNH,"Durham, NH",Extra Space,"Salt Lake City, UT",4.1,53000,94000,10/25/2019,10/28/2019,Yes
+ComputerScience,Dartmouth,"Hanover, NH",Raytheon,"Tucson, AZ",3.8,53000,81000,10/25/2019,11/17/2019,No
+ComputerScience,Penn State,"State College, PA",Adimo Partners,"Hoboken, NJ",4.3,NA,NA,10/25/2019,,
+ComputerScience,Columbia,"New York, NY	",Torc Robotics,"Blacksburg, VA",4.3,46000,82000,10/25/2019,10/30/2019,No
+ComputerScience,UCLA,"Los Angeles, CA",Samsung Strategy and Innovation Center,"San Jose, California",3.9,NA,NA,10/25/2019,,
+ComputerScience,UCOnn,"Mansfield, Connecticut",N-Ask,Aurora-CO,4.2,NA,NA,10/25/2019,,
+ComputerScience,Harvard,"Boston, MA",GoTab,"Arlington, VA",5,NA,NA,10/25/2019,,
+ComputerScience,Rutgers,"New Brunswick, New Jersey",Azara Healthcare,"Burlington, MA",4,NA,NA,10/25/2019,,
+ComputerScience,UPenn,"Philadelphia, PA",RedMane Technology,"Chicago, IL",3.5,51000,79000,10/25/2019,,
+ComputerScience,Yale,"New Haven, CT",Blackbaud,"Austin, TX",3.7,57000,96000,10/25/2019,10/29/2019,No
+ComputerScience,URI,"Durham, NH",Paramount Software Solutions,"Alpharetta, GA",4.1,43000,67000,10/25/2019,,
+ComputerScience,Brown,"Providence, RI",Neopost USA,"Brookfield, WI",3.3,62000,94000,10/25/2019,,
+ComputerScience,Yale,"New Haven, CT","Tower Hill Insurance Group, LLC","Gainesville, FL",3.1,42000,74000,10/25/2019,,
+ComputerScience,UPenn,"Philadelphia, PA	",Insurance Office of America,"Longwood, FL",3.4,40000,63000,10/25/2019,,
+ComputerScience,Rutgers,"New Brunswick, New Jersey",NU Skin,"Provo, UT",3.7,62000,107000,10/25/2019,,
+ComputerScience,UCOnn,"Mansfield, Connecticut",ENSCO,"Endicott, NY",4,41000,72000,10/25/2019,10/28/2019,Yes
+ComputerScience,Stanford,"Stanford, California",BioHorizon Implant Systems,"Birmingham, AL",4.2,62000,106000,10/31/2019,,
+ComputerScience,Cornell,"Ithica, NY",General Dynamics Mission Systems,"Pittsburgh, PA",3.6,61000,101000,10/25/2019,10/28/2019,No
+ComputerScience,Yale,"New Havem, CT",Xpressdocs,"Fort Worth, TX",3.4,51000,86000,10/25/2019,11/01/2019,Yes
+ComputerScience,Dartmouth,"Hanover, NH",Revature,"Phoenix, AZ",3.7,37000,64000,10/25/2019,,
+ComputerScience,SUNY,"Albany, NY",X by 2,"Farmington Hills, MI",4.7,80000,88000,10/25/2019,10/28/2019,Yes
+ComputerScience,UCLA,"Los Angeles, CA",Apple Leisure Group,"Milwaukee, WI",3.1,56000,98000,10/25/2019,10/28/2019,No
+ComputerScience,Rutgers,"New Brunswick, New Jersey",eResearchTechnology,"Pittsburgh, PA",2.5,57000,82000,10/25/2019,,
+ComputerScience,URI,"South Kingstown, Rhode Island",Marketing 360,"Fort Collins, CO",4.9,50000,70000,10/25/2019,,
+ComputerScience,UMassBoston,"Boston, MA",Edupoint,"Mesa, AZ",3.1,51000,79000,10/25/2019,,
+ComputerScience,Princeton,"Princeton, NJ",Customer Value Partners,"Washington, DC",4,47000,73000,10/25/2019,,
+ComputerScience,UMassAmherst,"Amherst, MA",AINS,"Gaithersburg, MD",2.9,41000,64000,10/25/2019,10/28/2019,Yes
+ComputerScience,Brown,"Providence, RI",Great Healthworks,"Fort Lauderdale, FL",3.8,44000,72000,10/25/2019,,
+ComputerScience,Cornell,"Ithica, NY","Green Street Advisors, LLC","Newport Beach, CA",4,60000,93000,10/25/2019,,
+ComputerScience,CUNY,"New York, NY",Buildertrend,"Omaha, NE",4.2,38000,66000,10/25/2019,,
+ComputerScience,Dartmouth,"Hanover, NH",Enclara Pharmacia,"Charleston, SC",2.9,46000,81000,10/25/2019,10/29/2019,Yes
+ComputerScience,Cornell,"Ithica, NY",Triology Ed,"Baltimore, MD",4.4,39000,67000,10/25/2019,,
+ComputerScience,Princeton,"Princeton, NJ",DataServ,"Saint Louis, MO",4.2,55000,89000,10/25/2019,,
+ComputerScience,UPenn,"Philadelphia, PA",Real-Time Innovations,"Sunnyvale, California",4.9,110000,125000,10/25/2019,,
+ComputerScience,UCOnn,"Mansfield, Connecticut",FAST,"Iselin, NJ",4.2,53000,91000,10/25/2019,,
+ComputerScience,MIT,"Boston, MA",Asana,"San Francisco, California",4.8,124000,204000,10/25/2019,,
+ComputerScience,CUNY,"New York, NY",Flashpoint,"New York, NY",3.7,61000,107000,10/26/2019,10/31/2019,No
+ComputerScience,UNH,"Durham, NH",Daon Inc,"Reston, VA",3.4,46000,63000,10/26/2019,,
+ComputerScience,MIT,"Boston, MA",Silicon Valley Bank,"Santa Clara, California",3.5,105000,174000,10/26/2019,,
+ComputerScience,Harvard,"Boston, MA",Nova Biomedical,"Waltham, MA",3,54000,95000,10/26/2019,,
+ComputerScience,URI,"South Kingstown, Rhode Island",MongoDB,"New York, NY",4.6,98000,163000,10/26/2019,,
+ComputerScience,UCLA,"Los Angeles, CA",RFA Engineering,"Des Moines, IA",4.1,45000,81000,10/26/2019,,
+ComputerScience,CUNY,"New York, NY",Unity Technologies,"Bellevue, WA",3.8,113000,167000,10/26/2019,11/05/2019,No
+ComputerScience,Stanford,"Stanford, California",Snap! Raise,"Seattle, WA",3.5,57000,106000,10/26/2019,,
+ComputerScience,UMassAmherst,"Amherst, MA","Tickernetwork, inc","South Windsor, CT",3.4,46000,81000,10/26/2019,10/31/2019,Yes
+ComputerScience,UMassAmherst,"Amherst, MA",HomeAdvisor & Angie's List,"Indianapolis, IN",3.1,51000,88000,10/26/2019,,
+ComputerScience,UMassBoston,"Boston, MA",Prospect Infosys,"Forth Worth, TX",3.6,53000,92000,10/26/2019,,
+ComputerScience,UNH,"Durham, NH",Toast,"Boston, MA",4.2,44000,70000,10/26/2019,11/13/2019,No
+ComputerScience,Columbia,"New York, NY",G2 OPS INC,"Arlington, VA",4.5,47000,89000,10/26/2019,11/12/2019,No
+ComputerScience,MIT,"Cambridge, MA",Micross Components,"Milpitas, California",2.2,78000,113000,10/26/2019,,
+ComputerScience,Harvard,"Cambridge, MA",2U,"Lanham, MD",3.8,54000,108000,10/26/2019,11/05/2019,No
+ComputerScience,Stanford,"Stanford, California",BTI360,"Ashburn, VA",4.9,NA,NA,10/26/2019,,
+ComputerScience,SUNY,"Albany, NY",Apex Systems,"Charlotte, NC",3.8,NA,NA,10/26/2019,,
+ComputerScience,Columbia,"New York, NY",Illumio,"Sunnyvale, California",2.9,114000,189000,10/26/2019,,

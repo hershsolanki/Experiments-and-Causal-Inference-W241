@@ -1,0 +1,182 @@
+,Block,School,School Location,Position,Location,Rating,Salary Low,Salary High,Date Applied,Date Responded,Interested,University Lat,University Long,City Lat,City Long,Distance
+0,Teacher,Brown,"Providence, RI",Big Tree Little Preschool,"Vista, California",,27000.0,31000.0,10/25/2019,,,41,-71,33,-117,2572
+1,Teacher,Brown,"Providence, RI",Brightmont Academy (AZ),"Deer Valley, AZ",3.5,20.0,23.0,10/25/2019,,,41,-71,33,-112,2311
+2,Teacher,Brown,"Providence, RI",Democracy Prep Public Schools,"Las Vegas, NV",2.8,42000.0,56000.0,10/25/2019,,,41,-71,36,-115,2384
+3,Teacher,Columbia,"New York, NY",San Jose Christian,"Campbell, California",4.0,84000.0,91000.0,10/25/2019,,,40,-74,37,-121,2526
+4,Teacher,Columbia,"New York, NY",Summit Public Schools,"Daly City, California",3.2,57572.0,57572.0,10/25/2019,,,40,-74,37,-122,2578
+5,Teacher,Columbia,"New York, NY",Acheivment Prep,"Washington, DC",4.0,34000.0,48000.0,10/25/2019,11/6/2019,Yes,40,-74,38,-77,212
+6,Teacher,Cornell,"Ithaca, NY
+	",Primrose School of Edina,"Edina, MN",,28000.0,30000.0,10/25/2019,10/29/2019,Yes,42,-76,44,-93,870
+7,Teacher,Cornell,"Ithaca, NY",360 Degree Customer,"Sunnyvale, California",3.7,69000.0,93000.0,10/25/2019,,,42,-76,37,-122,2452
+8,Teacher,Cornell,"Ithaca, NY",Montessori Academy,"Chicago, IL",4.1,11.0,13.0,10/25/2019,,,42,-76,41,-87,574
+9,Teacher,CUNY,"New York, NY",Diocese of Camden,"Camden, NJ",2.5,66000.0,70000.0,10/25/2019,,,40,-74,39,-75,87
+10,Teacher,CUNY,"New York, NY",Camden Charter Network,"Camden, NJ",2.8,42000.0,53000.0,10/25/2019,,,40,-74,39,-75,87
+11,Teacher,CUNY,"New York, NY",Capital Education,"Pikesville, MD",2.5,14.0,16.0,10/25/2019,,,40,-74,39,-76,127
+12,Teacher,Dartmouth,"Hanover, NH	",Panache Enfants,"San Ramon, MD",,15.0,17.0,10/25/2019,,,43,-72,37,-121,2595
+13,Teacher,Dartmouth,"Hanover, NH",Academic Acheivers,"Santa Monica, California",5.0,55000.0,59000.0,10/25/2019,11/16/2019,Yes,43,-72,34,-118,2536
+14,Teacher,Dartmouth,"Hanover, NH",Sylvan Learning Centers,"Piedmont, California",3.5,11.0,18.0,10/25/2019,,,43,-72,37,-122,2645
+15,Teacher,Harvard,"Cambridge, MA",Westminster Early Childhood Education,"Upper Saint Clair, PA",,,,10/25/2019,,,42,-71,40,-80,490
+16,Teacher,Harvard,"Cambridge, MA",Joy of Learning,"Miami, Florida",3.0,28000.0,30000.0,10/25/2019,,,42,-71,25,-80,1279
+17,Teacher,Harvard,"Cambridge, MA",MPO Solutions,"Dallas, TX",,,,10/25/2019,,,42,-71,32,-96,1537
+18,Teacher,MIT,"Cambridge, MA",Keystone School,"San Antonio, TX",,11.0,13.0,10/25/2019,,,42,-71,29,-98,1755
+19,Teacher,MIT,"Cambridge, MA",The Aemilian Preschool,"Wauwatosa, WI",4.0,14.0,15.0,10/25/2019,10/28/2019,Yes,42,-71,43,-88,869
+20,Teacher,MIT,"Cambridge, MA",The Goddard School,"West Chester, PA",3.2,9.0,14.0,10/25/2019,,,42,-71,39,-75,295
+21,Teacher,Penn State,"State College, PA",Little Scholars Early Center,"Mentor, OH",,,,10/25/2019,,,40,-77,41,-81,221
+22,Teacher,Penn State,"State College, PA","Olivia, Inc","Shorewood, WI",,13.0,17.0,10/25/2019,10/28/2019,Yes,40,-77,43,-87,558
+23,Teacher,Penn State,"State College, PA",Kid's Castle,"Kenosha, WI",,9.0,10.0,10/25/2019,,,40,-77,42,-87,540
+24,Teacher,Princeton,"Princeton, NJ",Child Care Associates,"Hurst, TX",3.5,14.0,16.0,10/25/2019,,,40,-74,32,-97,1396
+25,Teacher,Princeton,"Princeton, NJ",Feynman School,"Potomac, MD",,49000.0,54000.0,10/25/2019,,,40,-74,39,-77,174
+26,Teacher,Princeton,"Princeton, NJ",Kokua,"Philadelphia, PA",3.8,48000.0,52000.0,10/25/2019,10/28/2019,Yes,40,-74,39,-75,87
+27,Teacher,Rutgers,"New Brunswick, New Jersey",Greater Quincy Child Care Center,"Quincy, MA",5.0,33000.0,35000.0,10/25/2019,,,40,-74,42,-71,208
+28,Teacher,Rutgers,"New Brunswick, New Jersey",Little Kiddies,"Chicago, IL",,,,10/25/2019,,,40,-74,41,-87,687
+29,Teacher,Rutgers,"New Brunswick, New Jersey",Willow Creek Learning Center,"Menomonee Falls, WI",,,,10/25/2019,,,40,-74,43,-88,754
+30,Teacher,Stanford,"Stanford, California",Tiny Treasurey,"New Lenox, IL",5.0,,,10/25/2019,,,37,-122,41,-87,1891
+31,Teacher,Stanford,"Stanford, California",Great Lakers Academy Charter School,"Chicago, IL",,48000.0,75000.0,10/25/2019,,,37,-122,41,-87,1891
+32,Teacher,Stanford,"Stanford, California",Junior Manners Company,"San Francisco, California",,,,10/25/2019,,,37,-122,37,-122,0
+33,Teacher,SUNY,"Albany, NY",Jennifer ROsen Meade Preschool,"Bellevue, WA",,18.0,24.0,10/25/2019,,,42,-73,47,-122,2405
+34,Teacher,SUNY,"Albany, NY",MCC Academy,"Skokie, IL",,,,10/25/2019,,,42,-73,42,-87,719
+35,Teacher,SUNY,"Albany, NY",EJ Kids Klub,"Williston, VT",,14.0,25.0,10/25/2019,10/28/2019,Yes,42,-73,44,-73,138
+36,Teacher,UCLA,"Los Angeles, California",Bold Charter School,"Bronx, NY",,,,10/25/2019,10/28/2019,Yes,34,-118,40,-73,2496
+37,Teacher,UCLA,"Los Angeles, California",Immaculate Conception School,"Newburyport, MA",,,,10/25/2019,,,34,-118,42,-70,2641
+38,Teacher,UCLA,"Los Angeles, California",Legacy Academy Charter School,"Rockford, IL",,,,10/25/2019,,,34,-118,42,-89,1666
+39,Teacher,UConn,"Mansfield, Connecticut",Primrose Schools,"Rosewell, GA",2.9,19000.0,22000.0,10/25/2019,,,41,-72,37,-76,349
+40,Teacher,UConn,"Mansfield, Connecticut",TLC Schools,"Plano, TX",,14.0,15.0,10/25/2019,,,41,-72,33,-96,1431
+41,Teacher,UConn,"Mansfield, Connecticut",Kiddie Academy of Gurnee,"Gurnee, IL",,14.0,16.0,10/25/2019,,,41,-72,42,-87,780
+42,Teacher,UMassAmherst,"Amherst, Massachusetts",Angie's Angels,"Fremont, OH",,,,10/25/2019,,,42,-72,41,-83,574
+43,Teacher,UMassAmherst,"Amherst, Massachusetts",Learn It Systems,"Chicago, IL",3.5,25.0,27.0,10/25/2019,10/28/2019,Yes,42,-72,41,-87,780
+44,Teacher,UMassAmherst,"Amherst, Massachusetts",The Learning Experience,"East Brunswick, NJ",3.2,32000.0,48000.0,10/25/2019,,,42,-72,40,-74,173
+45,Teacher,UMassBoston,"Boston, Massachusetts",Montgomery Child Care Association,"Potomac Heights, MD",2.7,17.0,17.0,10/25/2019,,,42,-71,38,-77,421
+46,Teacher,UMassBoston,"Boston, Massachusetts",Bamboo Shoots Education,"Westfield, NJ",,,,10/25/2019,,,42,-71,40,-74,208
+47,Teacher,UMassBoston,"Boston, Massachusetts",Young at Heart Center,"Libertyville, IL",,,,10/25/2019,,,42,-71,42,-87,822
+48,Teacher,UNH,"Durham, NH",Education Playcare,"Berlin, CT",3.3,11.0,16.0,10/25/2019,10/29/2019,Yes,43,-70,41,-72,172
+49,Teacher,UNH,"Durham, NH",Adventureland Childcare,"Indianapolis, IN",,11.0,13.0,10/25/2019,,,43,-70,39,-86,879
+50,Teacher,UNH,"Durham, NH",Kids R Kids,"Conroe, TX",2.9,10.0,14.0,10/25/2019,,,43,-70,30,-95,1645
+51,Teacher,UPenn,"Philadelphia, PA",Northwest Yeshiva High School,"Mercer Island, WA",,45000.0,51000.0,10/25/2019,,,39,-75,47,-122,2406
+52,Teacher,UPenn,"Philadelphia, PA","Margaret Fuller Neighborhood House, Inc","Cambridge, MA",,12.0,14.0,10/25/2019,,,39,-75,42,-71,295
+53,Teacher,UPenn,"Philadelphia, PA",Transfiguration School,"New York, NY",,,,10/25/2019,,,39,-75,40,-74,87
+54,Teacher,URI,"South Kingstown, Rhode Island",Best in Class Education Center,"Mason, OH",3.9,14.0,17.0,10/25/2019,,,41,-71,39,-84,702
+55,Teacher,URI,"South Kingstown, Rhode Island",Elevate K-12,"Chicago, Illinois",4.5,12.0,20.0,10/25/2019,,,41,-71,41,-87,835
+56,Teacher,URI,"South Kingstown, Rhode Island",Ashwood Glen,"Burlington, California",,,,10/25/2019,,,41,-71,33,-116,2520
+57,Teacher,Yale,"New Haven, CT",PediaStaff,"Maywood, IL",4.9,61000.0,66000.0,10/25/2019,10/26/2019,Yes,41,-72,41,-87,783
+58,Teacher,Yale,"New Haven, CT",Heartlight Ministries,"Hallsville, TX",3.8,33.0,36.0,10/25/2019,,,41,-72,32,-94,1367
+59,Teacher,Yale,"New Haven, CT",Thomas MacLaren SChool,"Colorado Springs, California",,29000.0,42000.0,10/25/2019,,,41,-72,32,-117,2551
+60,Finance,Brown,"Providence, RI",Cascade Financial Services,"Chandler, AZ",3.5,49000.0,74000.0,10/25/2019,,,41,-71,33,-111,2259
+61,Finance,Brown,"Providence, RI",Nfluence Partners,"San Francisco, California",5.0,,,10/25/2019,,,41,-71,37,-122,2720
+62,Finance,Brown,"Providence, RI",Performance Search Group,"Houston, TX",5.0,,,10/25/2019,,,41,-71,29,-95,1584
+63,Finance,Columbia,"New York, NY",Procore Technologies,"Carpinteria, California",4.2,69000.0,104000.0,10/25/2019,10/31/2019,No,40,-74,34,-119,2496
+64,Finance,Columbia,"New York, NY",Teleport Group,"Lehi, UT",,,,10/25/2019,,,40,-74,40,-111,1948
+65,Finance,Columbia,"New York, NY",Loyola University Health System,"Woburn, MA",2.9,56000.0,82000.0,10/25/2019,,,40,-74,42,-71,208
+66,Finance,Cornell,"Ithica, NY",BCG Securities,"Cherry Hill, NJ",4.3,49000.0,53000.0,10/25/2019,11/13/2019,Yes,41,-73,39,-75,174
+67,Finance,Cornell,"Ithica, NY","eSolutions, Inc","Overland Park, KS",3.4,36000.0,53000.0,10/25/2019,11/6/2019,No,41,-73,38,-94,1138
+68,Finance,Cornell,"Ithica, NY",Adroit Resources,"San Francisco, California",4.6,,,10/25/2019,,,41,-73,37,-122,2617
+69,Finance,CUNY,"New York, NY",Bigge Crane and Rigging,"San Leandro, California",4.2,68000.0,100000.0,10/25/2019,,,40,-74,37,-122,2578
+70,Finance,CUNY,"New York, NY",Ajulia Executive Search,"Princeton, NJ",4.0,53000.0,79000.0,10/25/2019,,,40,-74,40,-74,0
+71,Finance,CUNY,"New York, NY",Study.com,"Mountain View, California",4.9,55000.0,82000.0,10/25/2019,,,40,-74,37,-122,2578
+72,Finance,Dartmouth,"Hanover, NH",Strategic Delivery Solutions,"Clark, NJ",2.2,,,10/25/2019,10/28/2019,No,43,-72,40,-74,231
+73,Finance,Dartmouth,"Hanover, NH",Obsidian Entertainment,"Irvine, California",3.7,45000.0,68000.0,10/25/2019,,,43,-72,33,-117,2518
+74,Finance,Dartmouth,"Hanover, NH",Giti Tire (USA) Ltd,"Fort Mill, SC",2.1,50000.0,75000.0,10/25/2019,,,43,-72,35,-80,699
+75,Finance,Harvard,"Cambridge, MA",Somatus,"Mc Lean, VA",5.0,,,10/25/2019,,,42,-71,34,-92,1267
+76,Finance,Harvard,"Cambridge, MA",BloomReach,"Mountain View, California",4.1,84000.0,123000.0,10/25/2019,,,42,-71,37,-122,2707
+77,Finance,Harvard,"Cambridge, MA","INDUS Technology, Inc.","Newport, RI",3.1,58000.0,86000.0,10/25/2019,,,42,-71,41,-71,69
+78,Finance,MIT,"Cambridge, MA",Denali Federal Credit Union,"Anchorage, AK",4.1,44000.0,66000.0,10/25/2019,,,42,-71,61,-149,3373
+79,Finance,MIT,"Cambridge, MA",ATBS,"Lakewood, CO",3.6,31000.0,52000.0,10/25/2019,,,42,-71,39,-105,1790
+80,Finance,MIT,"Cambridge, MA",Brandify,"Anaheim, California",3.8,48000.0,73000.0,10/25/2019,10/28/2019,No,42,-71,33,-117,2570
+81,Finance,Penn State,"State College, PA",ZWILLING J.A. Henckels,"Pleasantville, NY",2.8,,,10/25/2019,10/28/2019,Yes,40,-77,41,-73,221
+82,Finance,Penn State,"State College, PA",Jatca,"Atlanta, GA",5.0,,,10/25/2019,,,40,-77,33,-84,619
+83,Finance,Penn State,"State College, PA","Joslin Capital Advisors, LLC","Bellevue, WA",,,,10/25/2019,10/31/2019,No,40,-77,47,-122,2279
+84,Finance,Princeton,"Princeton, NJ",Johnson Consulting Group,"Scottsdale, AZ",5.0,,,10/25/2019,,,40,-74,33,-111,2099
+85,Finance,Princeton,"Princeton, NJ",Omada Health,"San Francisco, California",4.2,,,10/25/2019,10/29/2019,No,40,-74,37,-122,2578
+86,Finance,Princeton,"Princeton, NJ",South Coast Community Services,"Mission Viejo, California",2.9,45000.0,67000.0,10/25/2019,,,40,-74,33,-117,2417
+87,Finance,Rutgers,"New Brunswick, New Jersey","OnesourcePCS, LLC","Washington, DC",,,,10/25/2019,,,40,-74,38,-77,212
+88,Finance,Rutgers,"New Brunswick, New Jersey",Gibson Dunn & Crutcher,"Los Angeles, California",4.0,45000.0,68000.0,10/25/2019,,,40,-74,34,-118,2443
+89,Finance,Rutgers,"New Brunswick, New Jersey",Hunken Ewing Financial Group,"Chicago, IL",,43000.0,61000.0,10/25/2019,,,40,-74,41,-87,687
+90,Finance,Stanford,"Stanford, California",PeopleShare,"King of Prussia, PA",4.7,,,10/25/2019,10/28/2019,Yes,37,-122,40,-75,2526
+91,Finance,Stanford,"Stanford, California",Aramco Services Company,"Houston, TX",2.4,89000.0,129000.0,10/25/2019,,,37,-122,29,-95,1655
+92,Finance,Stanford,"Stanford, California",Gifted Healthcare,"Metrairie, LA",4.7,43000.0,64000.0,10/25/2019,10/30/2019,No,37,-122,45,0,2241
+93,Finance,SUNY,"Albany, New York",Dragonfly Group,"San Mateo, California",,,,10/25/2019,,,42,-73,37,-122,2605
+94,Finance,SUNY,"Albany, New York",AP Integro,"Waltham, MA",4.3,,,10/25/2019,,,42,-73,42,-71,102
+95,Finance,SUNY,"Albany, New York",Richmond American Homes,"Irvine, California",3.8,43000.0,64000.0,10/25/2019,,,42,-73,33,-117,2467
+96,Finance,UCLA,"Los Angeles, CA",X-Mode Social,"Reston, VA",4.9,,,10/25/2019,,,34,-118,38,-77,2294
+97,Finance,UCLA,"Los Angeles, CA",Golub & Company,"Chicago, IL",4.3,,,10/25/2019,,,34,-118,41,-87,1760
+98,Finance,UCLA,"Los Angeles, CA",Rakuten Marketing,"Salt Lake City, UT ",3.3,40000.0,60000.0,10/25/2019,,,34,-118,40,-111,566
+99,Finance,UCOnn,"Mansfield, Connecticut",Recruithook,"New York, NY",,,,10/25/2019,,,41,-72,40,-74,125
+100,Finance,UCOnn,"Mansfield, Connecticut",eClerx LLC,"Austin, TX",3.4,,,10/25/2019,,,41,-72,30,-97,1592
+101,Finance,UCOnn,"Mansfield, Connecticut",CarGurus,"Cambridge, MA",4.3,50000.0,75000.0,10/25/2019,10/30/2019,No,41,-72,42,-71,86
+102,Finance,UMassAmherst,"Amherst, Massachusetts",Vestory,"Bellevue, WA",3.0,90000.0,150000.0,10/25/2019,,,42,-72,47,-122,2452
+103,Finance,UMassAmherst,"Amherst, Massachusetts",Stefanini,"Allen Park, MI",3.3,42000.0,63000.0,10/25/2019,,,42,-72,42,-83,565
+104,Finance,UMassAmherst,"Amherst, Massachusetts",ARB Midstream,"Denver, CO",,62000.0,82000.0,10/25/2019,,,42,-72,39,-104,1688
+105,Finance,UMassBoston,"Boston, Massachusetts",KVH Industries,"Middletown, RI",,41000.0,62000.0,10/25/2019,,,42,-71,41,-71,69
+106,Finance,UMassBoston,"Boston, Massachusetts",Professional Staffing Group,"Boston, MA",4.3,,60000.0,10/25/2019,,,42,-71,42,-71,0
+107,Finance,UMassBoston,"Boston, Massachusetts",CoreSite,"Denver, CO",3.9,46000.0,69000.0,10/25/2019,,,42,-71,39,-104,1739
+108,Finance,UNH,"Durham, NH",endevis,"Madison, NJ",4.3,42000.0,65000.0,10/25/2019,,,43,-70,40,-74,293
+109,Finance,UNH,"Durham, NH",Planet,"San Francisco, California",3.2,68000.0,100000.0,10/25/2019,11/14/2019,No,43,-70,37,-122,2745
+110,Finance,UNH,"Durham, NH",CAS,"Columbus, OH",2.9,44000.0,65000.0,10/25/2019,,,43,-70,39,-83,732
+111,Finance,UPenn,"Philadelphia, PA",Miller Cooper,"Niles, IL",3.5,56000.0,84000.0,10/25/2019,,,39,-75,42,-87,664
+112,Finance,UPenn,"Philadelphia, PA","Spinnaker Support, LLC","Englewood, CO",3.3,,,10/25/2019,,,39,-75,39,-104,1554
+113,Finance,UPenn,"Philadelphia, PA",Keating Consulting Group,"San Mateo, California",3.8,,,10/25/2019,,,39,-75,37,-122,2540
+114,Finance,URI,"South Kingstown, Rhode Island",DataVisor,"Mountain View, California",4.6,63000.0,94000.0,10/25/2019,,,41,-71,37,-122,2720
+115,Finance,URI,"South Kingstown, Rhode Island",Fulcrum Staffing,"Charleston, SC",3.7,,,10/25/2019,,,41,-71,32,-79,763
+116,Finance,URI,"South Kingstown, Rhode Island",Gym Source,"Teterboro, NJ",,,,10/25/2019,,,41,-71,40,-74,172
+117,Finance,Yale,"New Haven, CT",Arbor Financial Systems,California,3.0,,,10/25/2019,,,41,-72,36,-118,2488
+118,Finance,Yale,"New Haven, CT","The Concourse Group, LLC","Annapolis, MD",,,,10/25/2019,,,41,-72,38,-76,297
+119,Finance,Yale,"New Haven, CT",Revive Staffing Solutions Inc,"Wichita, KA",,,,10/25/2019,,,41,-72,40,-95,1209
+120,ComputerScience,UMassBoston,"Boston, MA",Benefits Data Trust,"Philadelphia, PA",3.0,50000.0,69000.0,10/25/2019,,,42,-71,39,-75,295
+121,ComputerScience,Penn State,"State College, PA",Flexware Innovation,"Fishers, IN",4.4,46000.0,81000.0,10/25/2019,10/31/2019,Yes,40,-77,39,-86,485
+122,ComputerScience,SUNY,"Albany, NY",NextCapital,"Burlington, VT",4.3,61000.0,106000.0,10/31/2019,,,42,-73,44,-73,138
+123,ComputerScience,Penn State,"State College, PA",Veneble LLP,"Baltimore, MD",3.2,56000.0,87000.0,10/25/2019,11/20/2019,Yes,40,-77,39,-76,87
+124,ComputerScience,Princeton,"Princeton, NJ",Riverside Research Institute,"Beavercreek, OH",3.8,,,10/25/2019,,,40,-74,39,-84,538
+125,ComputerScience,Brown,"Providence, RI",ASML,"Wilton, CT",3.6,60000.0,84000.0,10/25/2019,11/21/2019,Yes,41,-71,41,-73,104
+126,ComputerScience,UNH,"Durham, NH",Extra Space,"Salt Lake City, UT",4.1,53000.0,94000.0,10/25/2019,10/28/2019,Yes,43,-70,40,-111,2116
+127,ComputerScience,Dartmouth,"Hanover, NH",Raytheon,"Tucson, AZ",3.8,53000.0,81000.0,10/25/2019,11/17/2019,No,43,-72,32,-110,2199
+128,ComputerScience,Penn State,"State College, PA",Adimo Partners,"Hoboken, NJ",4.3,,,10/25/2019,,,40,-77,40,-74,159
+129,ComputerScience,Columbia,"New York, NY	",Torc Robotics,"Blacksburg, VA",4.3,46000.0,82000.0,10/25/2019,10/30/2019,No,40,-74,37,-80,385
+130,ComputerScience,UCLA,"Los Angeles, CA",Samsung Strategy and Innovation Center,"San Jose, California",3.9,,,10/25/2019,,,34,-118,37,-121,267
+131,ComputerScience,UCOnn,"Mansfield, Connecticut",N-Ask,Aurora-CO,4.2,,,10/25/2019,,,41,-72,43,-98,1340
+132,ComputerScience,Harvard,"Boston, MA",GoTab,"Arlington, VA",5.0,,,10/25/2019,,,42,-71,38,-77,421
+133,ComputerScience,Rutgers,"New Brunswick, New Jersey",Azara Healthcare,"Burlington, MA",4.0,,,10/25/2019,,,40,-74,42,-71,208
+134,ComputerScience,UPenn,"Philadelphia, PA",RedMane Technology,"Chicago, IL",3.5,51000.0,79000.0,10/25/2019,,,39,-75,41,-87,650
+135,ComputerScience,Yale,"New Haven, CT",Blackbaud,"Austin, TX",3.7,57000.0,96000.0,10/25/2019,10/29/2019,No,41,-72,30,-97,1592
+136,ComputerScience,URI,"Durham, NH",Paramount Software Solutions,"Alpharetta, GA",4.1,43000.0,67000.0,10/25/2019,,,43,-70,34,-84,978
+137,ComputerScience,Brown,"Providence, RI",Neopost USA,"Brookfield, WI",3.3,62000.0,94000.0,10/25/2019,,,41,-71,43,-88,884
+138,ComputerScience,Yale,"New Haven, CT","Tower Hill Insurance Group, LLC","Gainesville, FL",3.1,42000.0,74000.0,10/25/2019,,,41,-72,29,-82,1001
+139,ComputerScience,UPenn,"Philadelphia, PA	",Insurance Office of America,"Longwood, FL",3.4,40000.0,63000.0,10/25/2019,,,39,-75,28,-81,832
+140,ComputerScience,Rutgers,"New Brunswick, New Jersey",NU Skin,"Provo, UT",3.7,62000.0,107000.0,10/25/2019,,,40,-74,40,-111,1948
+141,ComputerScience,UCOnn,"Mansfield, Connecticut",ENSCO,"Endicott, NY",4.0,41000.0,72000.0,10/25/2019,10/28/2019,Yes,41,-72,42,-76,218
+142,ComputerScience,Stanford,"Stanford, California",BioHorizon Implant Systems,"Birmingham, AL",4.2,62000.0,106000.0,10/31/2019,,,37,-122,33,-86,2048
+143,ComputerScience,Cornell,"Ithica, NY",General Dynamics Mission Systems,"Pittsburgh, PA",3.6,61000.0,101000.0,10/25/2019,10/28/2019,No,41,-73,40,-79,323
+144,ComputerScience,Yale,"New Havem, CT",Xpressdocs,"Fort Worth, TX",3.4,51000.0,86000.0,10/25/2019,11/01/2019,Yes,31,-102,32,-97,303
+145,ComputerScience,Dartmouth,"Hanover, NH",Revature,"Phoenix, AZ",3.7,37000.0,64000.0,10/25/2019,,,43,-72,33,-112,2265
+146,ComputerScience,SUNY,"Albany, NY",X by 2,"Farmington Hills, MI",4.7,80000.0,88000.0,10/25/2019,10/28/2019,Yes,42,-73,42,-83,514
+147,ComputerScience,UCLA,"Los Angeles, CA",Apple Leisure Group,"Milwaukee, WI",3.1,56000.0,98000.0,10/25/2019,10/28/2019,No,34,-118,43,-87,1779
+148,ComputerScience,Rutgers,"New Brunswick, New Jersey",eResearchTechnology,"Pittsburgh, PA",2.5,57000.0,82000.0,10/25/2019,,,40,-74,40,-79,265
+149,ComputerScience,URI,"South Kingstown, Rhode Island",Marketing 360,"Fort Collins, CO",4.9,50000.0,70000.0,10/25/2019,,,41,-71,40,-105,1780
+150,ComputerScience,UMassBoston,"Boston, MA",Edupoint,"Mesa, AZ",3.1,51000.0,79000.0,10/25/2019,,,42,-71,33,-111,2261
+151,ComputerScience,Princeton,"Princeton, NJ",Customer Value Partners,"Washington, DC",4.0,47000.0,73000.0,10/25/2019,,,40,-74,38,-77,212
+152,ComputerScience,UMassAmherst,"Amherst, MA",AINS,"Gaithersburg, MD",2.9,41000.0,64000.0,10/25/2019,10/28/2019,Yes,42,-72,39,-77,334
+153,ComputerScience,Brown,"Providence, RI",Great Healthworks,"Fort Lauderdale, FL",3.8,44000.0,72000.0,10/25/2019,,,41,-71,26,-80,1155
+154,ComputerScience,Cornell,"Ithica, NY","Green Street Advisors, LLC","Newport Beach, CA",4.0,60000.0,93000.0,10/25/2019,,,41,-73,53,-113,2030
+155,ComputerScience,CUNY,"New York, NY",Buildertrend,"Omaha, NE",4.2,38000.0,66000.0,10/25/2019,,,40,-74,41,-95,1105
+156,ComputerScience,Dartmouth,"Hanover, NH",Enclara Pharmacia,"Charleston, SC",2.9,46000.0,81000.0,10/25/2019,10/29/2019,Yes,43,-72,32,-79,849
+157,ComputerScience,Cornell,"Ithica, NY",Triology Ed,"Baltimore, MD",4.4,39000.0,67000.0,10/25/2019,,,41,-73,39,-76,210
+158,ComputerScience,Princeton,"Princeton, NJ",DataServ,"Saint Louis, MO",4.2,55000.0,89000.0,10/25/2019,,,40,-74,38,-90,870
+159,ComputerScience,UPenn,"Philadelphia, PA",Real-Time Innovations,"Sunnyvale, California",4.9,110000.0,125000.0,10/25/2019,,,39,-75,37,-122,2540
+160,ComputerScience,UCOnn,"Mansfield, Connecticut",FAST,"Iselin, NJ",4.2,53000.0,91000.0,10/25/2019,,,41,-72,40,-74,125
+161,ComputerScience,MIT,"Boston, MA",Asana,"San Francisco, California",4.8,124000.0,204000.0,10/25/2019,,,42,-71,37,-122,2707
+162,ComputerScience,CUNY,"New York, NY",Flashpoint,"New York, NY",3.7,61000.0,107000.0,10/26/2019,10/31/2019,No,40,-74,40,-74,0
+163,ComputerScience,UNH,"Durham, NH",Daon Inc,"Reston, VA",3.4,46000.0,63000.0,10/26/2019,,,43,-70,38,-77,504
+164,ComputerScience,MIT,"Boston, MA",Silicon Valley Bank,"Santa Clara, California",3.5,105000.0,174000.0,10/26/2019,,,42,-71,37,-121,2656
+165,ComputerScience,Harvard,"Boston, MA",Nova Biomedical,"Waltham, MA",3.0,54000.0,95000.0,10/26/2019,,,42,-71,42,-71,0
+166,ComputerScience,URI,"South Kingstown, Rhode Island",MongoDB,"New York, NY",4.6,98000.0,163000.0,10/26/2019,,,41,-71,40,-74,172
+167,ComputerScience,UCLA,"Los Angeles, CA",RFA Engineering,"Des Moines, IA",4.1,45000.0,81000.0,10/26/2019,,,34,-118,41,-93,1449
+168,ComputerScience,CUNY,"New York, NY",Unity Technologies,"Bellevue, WA",3.8,113000.0,167000.0,10/26/2019,11/05/2019,No,40,-74,47,-122,2420
+169,ComputerScience,Stanford,"Stanford, California",Snap! Raise,"Seattle, WA",3.5,57000.0,106000.0,10/26/2019,,,37,-122,47,-122,690
+170,ComputerScience,UMassAmherst,"Amherst, MA","Tickernetwork, inc","South Windsor, CT",3.4,46000.0,81000.0,10/26/2019,10/31/2019,Yes,42,-72,41,-72,69
+171,ComputerScience,UMassAmherst,"Amherst, MA",HomeAdvisor & Angie's List,"Indianapolis, IN",3.1,51000.0,88000.0,10/26/2019,,,42,-72,39,-86,764
+172,ComputerScience,UMassBoston,"Boston, MA",Prospect Infosys,"Forth Worth, TX",3.6,53000.0,92000.0,10/26/2019,,,42,-71,32,-97,1586
+173,ComputerScience,UNH,"Durham, NH",Toast,"Boston, MA",4.2,44000.0,70000.0,10/26/2019,11/13/2019,No,43,-70,42,-71,85
+174,ComputerScience,Columbia,"New York, NY",G2 OPS INC,"Arlington, VA",4.5,47000.0,89000.0,10/26/2019,11/12/2019,No,40,-74,38,-77,212
+175,ComputerScience,MIT,"Cambridge, MA",Micross Components,"Milpitas, California",2.2,78000.0,113000.0,10/26/2019,,,42,-71,37,-121,2656
+176,ComputerScience,Harvard,"Cambridge, MA",2U,"Lanham, MD",3.8,54000.0,108000.0,10/26/2019,11/05/2019,No,42,-71,38,-76,382
+177,ComputerScience,Stanford,"Stanford, California",BTI360,"Ashburn, VA",4.9,,,10/26/2019,,,37,-122,39,-77,2434
+178,ComputerScience,SUNY,"Albany, NY",Apex Systems,"Charlotte, NC",3.8,,,10/26/2019,,,42,-73,35,-80,613
+179,ComputerScience,Columbia,"New York, NY",Illumio,"Sunnyvale, California",2.9,114000.0,189000.0,10/26/2019,,,40,-74,37,-122,2578
